@@ -68,23 +68,24 @@ module.exports = {
     // header images on home page
     homeHeaderImages: [
       {
-        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/1.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/6.jpg",
         mask: "rgba(40, 57, 101, .4)"
       },
       {
-        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/2.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/11.jpg",
         mask: "rgba(196, 176, 131, .1)"
       },
       {
-        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/3.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/13.jpg",
         mask: "rgba(68, 74, 83, .1)"
       },
       {
-        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/4.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/9.jpg",
         mask: "rgba(19, 75, 50, .2)"
       },
       {
-        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/5.jpg"
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/10.jpg",
+        mask: "rgba(19, 75, 50, .2)"
       }
     ],
 

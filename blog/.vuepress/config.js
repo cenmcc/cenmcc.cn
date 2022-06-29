@@ -4,9 +4,8 @@ const { gungnirTheme } = require("vuepress-theme-gungnir");
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
-  title: "Xiaohan Zou",
-  description: "Xiaohan Zou (Renovamen) is a dragon lost in human world.",
-
+  title: "cenmc",
+  description: "cenmcc personal blog",
   head: [
     [
       "link",
@@ -14,7 +13,7 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: `/img/logo/favicon-16x16.png`
+        href: `/img/logo/favicon-16x16.png` //icon
       }
     ],
     [
@@ -26,8 +25,8 @@ module.exports = {
         href: `/img/logo/favicon-32x32.png`
       }
     ],
-    ["meta", { name: "application-name", content: "Xiaohan Zou" }],
-    ["meta", { name: "apple-mobile-web-app-title", content: "Xiaohan Zou" }],
+    ["meta", { name: "application-name", content: "cenmc" }],
+    ["meta", { name: "apple-mobile-web-app-title", content: "cenmc" }],
     [
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" }
@@ -43,7 +42,7 @@ module.exports = {
   bundler: viteBundler(),
 
   theme: gungnirTheme({
-    repo: "Renovamen/blog.zxh.io",
+    // repo: "Renovamen/blog.zxh.io",
     docsDir: "blog",
     docsBranch: "master",
 
@@ -51,17 +50,12 @@ module.exports = {
 
     // personal information
     personalInfo: {
-      name: "Renovamen",
-      avatar: "/img/avatar.jpg",
-      description: "いつか、私がヒトじゃなくなっても",
+      name: "cenmc",
+      avatar: "/img/avatar.jpeg",
+      description: "个人描述",
       sns: {
-        github: "Renovamen",
-        linkedin: "xiaohan-zou",
-        // facebook: "renovamen.zou",
-        twitter: "renovamen_zxh",
-        zhihu: "chao-neng-gui-su",
-        email: "renovamenzxh@gmail.com",
-        rss: "/rss.xml"
+        github: "cenmc",
+        email: "15565555045@163.com",
       }
     },
 
@@ -131,29 +125,24 @@ module.exports = {
 
     navbar: [
       {
-        text: "Home",
+        text: "主页",
         link: "/",
         icon: "fa-fort-awesome"
       },
       {
-        text: "Tags",
+        text: "标签",
         link: "/tags/",
         icon: "fa-tag"
       },
       {
-        text: "Links",
+        text: "链接",
         link: "/links/",
         icon: "fa-satellite-dish"
       },
       {
-        text: "About",
+        text: "关于",
         link: "https://zxh.io",
         icon: "fa-paw"
-      },
-      {
-        text: "Portfolio",
-        link: "https://portfolio.zxh.io/",
-        icon: "oi-rocket"
       }
     ],
 

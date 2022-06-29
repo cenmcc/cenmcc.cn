@@ -5,7 +5,7 @@ title: Hello World
 author: cenmc
 date: 2017-06-09
 useHeaderImage: true
-headerImage: /img/in-post/2017-06-09/header.jpeg
+headerImage: https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/in-post/header.png
 headerMask: rgb(14, 21, 5, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:

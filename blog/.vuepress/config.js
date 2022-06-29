@@ -12,8 +12,7 @@ module.exports = {
       {
         rel: "icon",
         type: "image/png",
-        sizes: "16x16",
-        href: `/img/logo/favicon-16x16.png` //icon
+        href: `/img/logo/logo.svg` //icon
       }
     ],
     [
@@ -22,7 +21,7 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: `/img/logo/favicon-32x32.png`
+        href: `/img/logo/logo.svg`
       }
     ],
     ["meta", { name: "application-name", content: "cenmc" }],
@@ -33,7 +32,7 @@ module.exports = {
     ],
     [
       "link",
-      { rel: "apple-touch-icon", href: `/img/logo/apple-touch-icon.png` }
+      { rel: "apple-touch-icon", href: `/img/logo/logo.svg` }
     ],
     ["meta", { name: "theme-color", content: "#377bb5" }],
     ["meta", { name: "msapplication-TileColor", content: "#377bb5" }]
@@ -58,7 +57,7 @@ module.exports = {
     // personal information
     personalInfo: {
       name: "cenmc",
-      avatar: "/img/avatar.jpeg",
+      avatar: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/avatar.jpeg",
       description: "个人描述",
       sns: {
         github: "cenmc",
@@ -69,23 +68,23 @@ module.exports = {
     // header images on home page
     homeHeaderImages: [
       {
-        path: "/img/home-bg/1.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/1.jpg",
         mask: "rgba(40, 57, 101, .4)"
       },
       {
-        path: "/img/home-bg/2.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/2.jpg",
         mask: "rgba(196, 176, 131, .1)"
       },
       {
-        path: "/img/home-bg/3.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/3.jpg",
         mask: "rgba(68, 74, 83, .1)"
       },
       {
-        path: "/img/home-bg/4.jpg",
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/4.jpg",
         mask: "rgba(19, 75, 50, .2)"
       },
       {
-        path: "/img/home-bg/5.jpg"
+        path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/bg-image/5.jpg"
       }
     ],
 
@@ -94,7 +93,7 @@ module.exports = {
       tags: {
         subtitle: "Black Sheep Wall",
         bgImage: {
-          path: "/img/pages/tags.jpg",
+          path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/pages/tags.jpg",
           mask: "rgba(211, 136, 37, .5)"
         }
       },
@@ -102,25 +101,15 @@ module.exports = {
         subtitle:
           "When you are looking at the stars, please put the brightest star shining night sky as my soul.",
         bgImage: {
-          path: "/img/pages/links.jpg",
+          path: "https://cenmcc-es-1251934167.cos.ap-nanjing.myqcloud.com/pages/links.jpg",
           mask: "rgba(64, 118, 190, 0.5)"
         }
       }
     },
-    // locales: {
-    //   "/": {
-    //     navbar: navbar.en,
-    //     sidebar: sidebar.en
-    //   },
-    // },
     themePlugins: {
-      // only enable git plugin in production mode
-      // git: isProd,
       mdPlus: {
         all: true
       },
-      // ga: "G-HCQSX53XFG",
-      // ba: "75381d210789d3eaf855fa16246860cc",
       rss: {
         siteURL: "https://cenmcc.cn",
       }
@@ -133,14 +122,14 @@ module.exports = {
         icon: "fa-fort-awesome"
       },
       {
-        text: "标签",
-        link: "/tags/",
-        icon: "fa-tag"
-      },
-      {
         text: "文档",
         link: "/docs/",
         icon: "fa-book"
+      },
+      {
+        text: "标签",
+        link: "/tags/",
+        icon: "fa-tag"
       },
       {
         text: "链接",

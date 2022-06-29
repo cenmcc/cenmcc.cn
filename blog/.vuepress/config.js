@@ -38,7 +38,14 @@ module.exports = {
     ["meta", { name: "theme-color", content: "#377bb5" }],
     ["meta", { name: "msapplication-TileColor", content: "#377bb5" }]
   ],
-
+  // 
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "cenmc",
+      description: "VuePress 博客主题"
+    }
+  },
   bundler: viteBundler(),
 
   theme: gungnirTheme({
@@ -100,29 +107,25 @@ module.exports = {
         }
       }
     },
-
+    // locales: {
+    //   "/": {
+    //     navbar: navbar.en,
+    //     sidebar: sidebar.en
+    //   },
+    // },
     themePlugins: {
       // only enable git plugin in production mode
-      git: isProd,
-      katex: true,
-      giscus: {
-        repo: "This-is-an-Apple/blog-giscus-comments",
-        repoId: "R_kgDOGl2SjQ",
-        category: "Announcements",
-        categoryId: "DIC_kwDOGl2Sjc4CAcxK",
-        darkTheme: "https://blog.zxh.io/styles/giscus-dark.css"
-      },
+      // git: isProd,
       mdPlus: {
         all: true
       },
-      ga: "G-HCQSX53XFG",
-      ba: "75381d210789d3eaf855fa16246860cc",
+      // ga: "G-HCQSX53XFG",
+      // ba: "75381d210789d3eaf855fa16246860cc",
       rss: {
-        siteURL: "https://blog.zxh.io",
-        copyright: "Renovamen 2018-2022"
+        siteURL: "https://cenmcc.cn",
       }
     },
-
+    searchText: "搜索",
     navbar: [
       {
         text: "主页",
@@ -135,17 +138,52 @@ module.exports = {
         icon: "fa-tag"
       },
       {
+        text: "文档",
+        link: "/docs/",
+        icon: "fa-book"
+      },
+      {
         text: "链接",
         link: "/links/",
         icon: "fa-satellite-dish"
-      },
-      {
-        text: "关于",
-        link: "https://zxh.io",
-        icon: "fa-paw"
       }
     ],
-
+    sidebar: {
+      '/': [
+        {
+          text: 'CSS',
+          children: [
+            '/docs/css/layout',
+            '/docs/css/overflow',
+            '/docs/css/scss',
+          ]
+        },
+        {
+          text: 'JavaScript',
+          children: [
+            '/docs/javascript/array',
+            '/docs/javascript/dom',
+            '/docs/javascript/domprops',
+            '/docs/javascript/es6',
+            '/docs/javascript/event',
+          ]
+        },
+        {
+          text: 'Vue',
+          children: [
+            '/docs/vue/computed',
+            '/docs/vue/rareuser',
+            '/docs/vue/usage',
+          ]
+        },
+        {
+          text: '其他',
+          children: [
+            '/docs/other/vscodeplugins',
+          ]
+        }
+      ]
+    },
     footer: `
       &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2022
       <br>

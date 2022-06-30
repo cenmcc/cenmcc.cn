@@ -1,6 +1,6 @@
 # HTML MATE标签
 
-> **HTML `<meta>` 元素**表示那些不能由其它 HTML 元相关（meta-related）元素（(<base>、 <link>、<script> 、 <style>或<title>）之一表示的任何**元数据**信息。
+> **HTML `meta` 元素**表示那些不能由其它 HTML 元相关（meta-related）元素（(base、 link、script 、 style或title）之一表示的任何**元数据**信息。
 
 ##### `meta` 元素定义的元数据的类型包括以下几种：
 
@@ -42,7 +42,7 @@
 `name` 和 `content` 属性可以一起使用，以名 - 值对的方式给文档提供元数据，其中 name 作为元数据的名称，content 作为元数据的值。
 
 ```html
-<meta name="description" content="网站描述，有利于爬虫获取">
-<meta name="keyword" content="网站关键字,有利于爬虫获取">
+<meta name="description" content="网站描述，有利于爬虫获取" >
+<meta name="keyword" content="网站关键字,有利于爬虫获取" >
 ```
 

@@ -1,3 +1,7 @@
+---
+date: 2020-07-15
+---
+
 # CSS transition(过渡)
 
 **transition**： none | < transition-property > ] || < time > || < transition-timing-function > || < time >

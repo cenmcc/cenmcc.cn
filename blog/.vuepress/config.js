@@ -141,12 +141,52 @@ module.exports = {
     sidebar: {
       '/': [
         {
+          text: 'HTML',
+          collapsible: true,
+          children: [
+            {
+              text:'HTML MATE',
+              link: '/docs/html/meta',
+              sidebarDepth: 1,
+            },
+            {
+              text:'HTML 标签与语意化',
+              link: '/docs/html/label',
+              sidebarDepth: 1,
+            },
+          ]
+        },
+        {
           text: 'CSS',
           collapsible: true,
           children: [
-            '/docs/css/layout',
-            '/docs/css/overflow',
-            '/docs/css/scss',
+            {
+              text:'CSS基础布局',
+              link: '/docs/css/layout',
+              sidebarDepth: 1,
+            },
+            {
+              text:'CSS公共样式',
+              link: '/docs/css/base',
+              sidebarDepth: 1,
+            },
+            {
+              text:'CSS Flex布局',
+              link: '/docs/css/flex',
+              sidebarDepth: 1,
+            },
+            {
+              text:'CSS Scss基础',
+              link: '/docs/css/scss',
+              sidebarDepth: 1,
+            },
+            {
+              text:'CSS 样式权重与优先级',
+              link: '/docs/css/weight',
+              sidebarDepth: 1,
+            },
+            '/docs/css/bfc',
+            '/docs/css/cssskill',
             {
               text: 'CSS 属性及描述',
               collapsible: true,

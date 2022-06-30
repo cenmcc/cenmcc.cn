@@ -1,3 +1,7 @@
+---
+date: 2020-07-15
+---
+
 # CSS background(背景)
 
 **background**: 'image' 'position' 'size' 'repeat' 'attachement' 'origin' 'clip' 'color';

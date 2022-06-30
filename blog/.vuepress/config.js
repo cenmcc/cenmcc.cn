@@ -142,14 +142,33 @@ module.exports = {
       '/': [
         {
           text: 'CSS',
+          collapsible: true,
           children: [
             '/docs/css/layout',
             '/docs/css/overflow',
             '/docs/css/scss',
+            {
+              text: 'CSS 属性及描述',
+              collapsible: true,
+              children: [
+                '/docs/css/animation',
+                '/docs/css/background',
+                '/docs/css/border',
+                '/docs/css/boxcontent',
+                '/docs/css/image',
+                '/docs/css/layoutlabel',
+                '/docs/css/list',
+                '/docs/css/selector',
+                '/docs/css/textstyle',
+                '/docs/css/transfrom',
+                '/docs/css/transition',
+              ]
+            }
           ]
         },
         {
           text: 'JavaScript',
+          collapsible: true,
           children: [
             '/docs/javascript/array',
             '/docs/javascript/dom',
@@ -160,6 +179,7 @@ module.exports = {
         },
         {
           text: 'Vue',
+          collapsible: true,
           children: [
             '/docs/vue/computed',
             '/docs/vue/rareuser',
@@ -168,6 +188,7 @@ module.exports = {
         },
         {
           text: '其他',
+          collapsible: true,
           children: [
             '/docs/other/vscodeplugins',
           ]

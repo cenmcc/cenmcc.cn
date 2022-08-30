@@ -124,7 +124,7 @@ module.exports = {
       },
       {
         text: "文档",
-        link: "/docs/",
+        link: "/docs/vue/vueprinciple",
         icon: "fa-book"
       },
       {
@@ -221,9 +221,68 @@ module.exports = {
           text: 'Vue',
           collapsible: true,
           children: [
-            '/docs/vue/computed',
-            '/docs/vue/rareuser',
-            '/docs/vue/usage',
+            {
+              text: 'Vue 原理',
+              link: '/docs/vue/vueprinciple',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue computed计算属性',
+              link: '/docs/vue/computed',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue 特殊用法',
+              link: '/docs/vue/rareuser',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue 高级用法',
+              link: '/docs/vue/usage',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue 异步组件',
+              link: '/docs/vue/asyncComponent',
+              sidebarDepth: 1,
+            },
+
+            {
+              text: 'Vue 动态组件',
+              link: '/docs/vue/component',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue 缓存组件',
+              link: '/docs/vue/keepalive',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue mixin混合',
+              link: '/docs/vue/mixin',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue 自定义v-model',
+              link: '/docs/vue/vmodel',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue 插槽',
+              link: '/docs/vue/vslot',
+              sidebarDepth: 1,
+            },
+
+            {
+              text: 'Vuex 辅助函数',
+              link: '/docs/vue/vuex',
+              sidebarDepth: 1,
+            },
+            {
+              text: 'Vue Router',
+              link: '/docs/vue/vuerouter',
+              sidebarDepth: 1,
+            },
           ]
         },
         {
@@ -232,7 +291,19 @@ module.exports = {
           children: [
             '/docs/other/vscodeplugins',
           ]
-        }
+        },
+        {
+          text: 'GitHub',
+          collapsible: true,
+          children: [
+            '/docs/github/gituse',
+            {
+              text: 'github基本操作',
+              link: '/docs/github/githubuse',
+              sidebarDepth: 1,
+            },
+          ]
+        },
       ]
     },
     footer: `

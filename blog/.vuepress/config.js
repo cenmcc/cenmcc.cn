@@ -290,6 +290,7 @@ module.exports = {
           collapsible: true,
           children: [
             '/docs/other/vscodeplugins',
+            '/docs/study/1'
           ]
         },
         {

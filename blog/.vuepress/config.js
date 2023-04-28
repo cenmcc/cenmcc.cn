@@ -286,11 +286,22 @@ module.exports = {
           ]
         },
         {
+          text: 'React',
+          collapsible: true,
+          children: [
+            {
+              text: 'React Router',
+              link: '/docs/react/router',
+              sidebarDepth: 1,
+            }
+
+          ]
+        },
+        {
           text: '其他',
           collapsible: true,
           children: [
-            '/docs/other/vscodeplugins',
-            '/docs/study/1'
+            '/docs/other/vscodeplugins'
           ]
         },
         {

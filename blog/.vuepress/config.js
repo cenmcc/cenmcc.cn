@@ -322,6 +322,37 @@ module.exports = {
             },
           ],
         },
+        {
+          text: "软件开发环境与工具教程",
+          collapsible: true,
+          children: [
+            {
+              text: "第一章 软件开发环境与工具概述",
+              link: "/docs/dev/1",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第二章 软件开发工具",
+              link: "/docs/dev/2",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第三章 软件开发管理工具",
+              link: "/docs/dev/3",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第四章 软件开发基础环境",
+              link: "/docs/dev/4",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第五章 学科前沿",
+              link: "/docs/dev/5",
+              sidebarDepth: 1,
+            }
+          ],
+        },
       ],
     },
     footer: `

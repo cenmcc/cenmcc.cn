@@ -320,6 +320,26 @@ module.exports = {
               link: "/docs/computer/1",
               sidebarDepth: 1,
             },
+            {
+              text: "第二章 数据通信基础",
+              link: "/docs/computer/2",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第三章 网络协议和体系结构",
+              link: "/docs/computer/3",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第四章 局域网技术",
+              link: "/docs/computer/4",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第五章 网络互联技术",
+              link: "/docs/computer/5",
+              sidebarDepth: 1,
+            },
           ],
         },
         {
@@ -349,6 +369,16 @@ module.exports = {
             {
               text: "第五章 学科前沿",
               link: "/docs/dev/5",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第六章 CASE环境与工具的开发与选用",
+              link: "/docs/dev/6",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第七章 典型软件开发工具与环境介绍",
+              link: "/docs/dev/7",
               sidebarDepth: 1,
             }
           ],

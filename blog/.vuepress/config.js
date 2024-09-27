@@ -340,6 +340,26 @@ module.exports = {
               link: "/docs/computer/5",
               sidebarDepth: 1,
             },
+            {
+              text: "第六章 网络应用技术",
+              link: "/docs/computer/6",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第七章 网络管理技术",
+              link: "/docs/computer/7",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第八章 网络操作系统",
+              link: "/docs/computer/8",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第九章 计算机网络安全",
+              link: "/docs/computer/9",
+              sidebarDepth: 1,
+            },
           ],
         },
         {
@@ -380,7 +400,7 @@ module.exports = {
               text: "第七章 典型软件开发工具与环境介绍",
               link: "/docs/dev/7",
               sidebarDepth: 1,
-            }
+            },
           ],
         },
       ],

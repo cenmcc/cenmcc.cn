@@ -403,6 +403,27 @@ module.exports = {
             },
           ],
         },
+        {
+          text: "项目管理",
+          collapsible: true,
+          children: [
+            {
+              text: "第一章 概述",
+              link: "/docs/manage/1",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第二章 项目准备和启动",
+              link: "/docs/manage/2",
+              sidebarDepth: 1,
+            },
+            {
+              text: "第三章 项目计划",
+              link: "/docs/manage/3",
+              sidebarDepth: 1,
+            },
+          ],
+        },
       ],
     },
     footer: `
